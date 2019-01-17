@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		848ED8E721F0B2E60058C04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8E621F0B2E60058C04E /* AppDelegate.swift */; };
-		848ED8E921F0B2E60058C04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8E821F0B2E60058C04E /* ViewController.swift */; };
 		848ED8EC21F0B2E60058C04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ED8EA21F0B2E60058C04E /* Main.storyboard */; };
 		848ED8EF21F0B2E60058C04E /* CarSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8ED21F0B2E60058C04E /* CarSample.xcdatamodeld */; };
 		848ED8F121F0B2E70058C04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848ED8F021F0B2E70058C04E /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		848ED8E321F0B2E60058C04E /* CarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ED8E621F0B2E60058C04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		848ED8E821F0B2E60058C04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848ED8EB21F0B2E60058C04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848ED8EE21F0B2E60058C04E /* CarSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarSample.xcdatamodel; sourceTree = "<group>"; };
 		848ED8F021F0B2E70058C04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				848ED8E621F0B2E60058C04E /* AppDelegate.swift */,
-				848ED8E821F0B2E60058C04E /* ViewController.swift */,
-				848ED8EA21F0B2E60058C04E /* Main.storyboard */,
-				848ED8F021F0B2E70058C04E /* Assets.xcassets */,
-				848ED8F221F0B2E70058C04E /* LaunchScreen.storyboard */,
-				848ED8F521F0B2E70058C04E /* Info.plist */,
-				848ED8ED21F0B2E60058C04E /* CarSample.xcdatamodeld */,
+				848ED91721F0B3A00058C04E /* App */,
+				848ED91821F0B3AA0058C04E /* UI */,
+				848ED91A21F0B3CF0058C04E /* Utility Tools */,
+				848ED91921F0B3BA0058C04E /* Resources */,
 			);
 			path = CarSample;
 			sourceTree = "<group>";
@@ -126,6 +122,55 @@
 				848ED90B21F0B2E70058C04E /* Info.plist */,
 			);
 			path = CarSampleUITests;
+			sourceTree = "<group>";
+		};
+		848ED91721F0B3A00058C04E /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		848ED91821F0B3AA0058C04E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				848ED91C21F0B4A50058C04E /* Reusable Components */,
+				848ED91B21F0B4870058C04E /* Story Boards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		848ED91921F0B3BA0058C04E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848ED8ED21F0B2E60058C04E /* CarSample.xcdatamodeld */,
+				848ED8F521F0B2E70058C04E /* Info.plist */,
+				848ED8F221F0B2E70058C04E /* LaunchScreen.storyboard */,
+				848ED8F021F0B2E70058C04E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		848ED91A21F0B3CF0058C04E /* Utility Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Utility Tools";
+			sourceTree = "<group>";
+		};
+		848ED91B21F0B4870058C04E /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				848ED8EA21F0B2E60058C04E /* Main.storyboard */,
+			);
+			path = "Story Boards";
+			sourceTree = "<group>";
+		};
+		848ED91C21F0B4A50058C04E /* Reusable Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Reusable Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848ED8E921F0B2E60058C04E /* ViewController.swift in Sources */,
 				848ED8EF21F0B2E60058C04E /* CarSample.xcdatamodeld in Sources */,
 				848ED8E721F0B2E60058C04E /* AppDelegate.swift in Sources */,
 			);
