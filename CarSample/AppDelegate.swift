@@ -13,10 +13,18 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var applicationViewModel = ApplicationViewModel(launchOptions: nil)
+    var applicationNavigationController: ApplicationNavigationController?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        applicationViewModel = ApplicationViewModel(launchOptions: launchOptions)
+        applicationNavigationController = ApplicationNavigationController(applicationViewModel: applicationViewModel)
+        self.window?.rootViewController = applicationNavigationController
+        self.window?.makeKeyAndVisible()
+        applicationViewModel.checkOptions()
+        
         return true
     }
 

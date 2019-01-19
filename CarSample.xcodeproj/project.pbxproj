@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04188C113956E12C5FE23A8D /* Pods_CarSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC1524E8F6DB8EE6299D2E /* Pods_CarSample.framework */; };
 		848ED8E721F0B2E60058C04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8E621F0B2E60058C04E /* AppDelegate.swift */; };
 		848ED8EC21F0B2E60058C04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ED8EA21F0B2E60058C04E /* Main.storyboard */; };
 		848ED8EF21F0B2E60058C04E /* CarSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8ED21F0B2E60058C04E /* CarSample.xcdatamodeld */; };
@@ -14,6 +15,28 @@
 		848ED8F421F0B2E70058C04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ED8F221F0B2E70058C04E /* LaunchScreen.storyboard */; };
 		848ED8FF21F0B2E70058C04E /* CarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED8FE21F0B2E70058C04E /* CarSampleTests.swift */; };
 		848ED90A21F0B2E70058C04E /* CarSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED90921F0B2E70058C04E /* CarSampleUITests.swift */; };
+		848ED92321F0D8950058C04E /* ApplicationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED92221F0D8950058C04E /* ApplicationNavigationController.swift */; };
+		848ED92521F0D8E00058C04E /* ApplicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED92421F0D8E00058C04E /* ApplicationViewModel.swift */; };
+		848ED92B21F0E39D0058C04E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED92A21F0E39D0058C04E /* Reusable.swift */; };
+		848ED92D21F0E3C90058C04E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED92C21F0E3C90058C04E /* SplashViewController.swift */; };
+		848ED92F21F0E70D0058C04E /* UIStoryBoard+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED92E21F0E70D0058C04E /* UIStoryBoard+Helper.swift */; };
+		848ED93221F0F2350058C04E /* ManufactureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93121F0F2350058C04E /* ManufactureListViewController.swift */; };
+		848ED93421F0F2800058C04E /* ManufactureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93321F0F2800058C04E /* ManufactureListViewModel.swift */; };
+		848ED93621F0F2F20058C04E /* Manufacture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93521F0F2F20058C04E /* Manufacture.swift */; };
+		848ED93921F0F53E0058C04E /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93821F0F53E0058C04E /* Observable.swift */; };
+		848ED93C21F108980058C04E /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93B21F108980058C04E /* Routes.swift */; };
+		848ED93E21F112680058C04E /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93D21F112680058C04E /* APIController.swift */; };
+		848ED94021F117300058C04E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED93F21F117300058C04E /* Response.swift */; };
+		848ED94221F1181C0058C04E /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94121F1181C0058C04E /* WebServices.swift */; };
+		848ED94421F11EE10058C04E /* ManufactureListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94321F11EE10058C04E /* ManufactureListDataSource.swift */; };
+		848ED94621F11EEE0058C04E /* ManufactureListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94521F11EEE0058C04E /* ManufactureListDelegate.swift */; };
+		848ED94821F11FAE0058C04E /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94721F11FAE0058C04E /* UITableView+Helper.swift */; };
+		848ED94B21F120160058C04E /* ManufactureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94A21F120160058C04E /* ManufactureTableViewCell.swift */; };
+		848ED94D21F120DE0058C04E /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94C21F120DE0058C04E /* Style.swift */; };
+		848ED94F21F121750058C04E /* Color Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED94E21F121750058C04E /* Color Palette.swift */; };
+		848ED95121F13C330058C04E /* ModelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ED95021F13C330058C04E /* ModelListViewController.swift */; };
+		BBC651B2183767BDEE64B9E1 /* Pods_CarSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2478988CD3E9B7CD18D52058 /* Pods_CarSampleUITests.framework */; };
+		F720E0C3B75A1AE2DFF76F03 /* Pods_CarSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B1241015E733DF2DCD0E29 /* Pods_CarSampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14EC1524E8F6DB8EE6299D2E /* Pods_CarSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2785804F6175D90EAD7A7E /* Pods-CarSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarSample/Pods-CarSample.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC6B73A856121CC81D2CB43 /* Pods-CarSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarSampleUITests/Pods-CarSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2478988CD3E9B7CD18D52058 /* Pods_CarSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA95590E81E8D08F4ADA1E9 /* Pods-CarSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarSampleTests/Pods-CarSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		413CCE763B6A3081032F627F /* Pods-CarSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarSampleTests/Pods-CarSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70AC9D922C9C886D49858678 /* Pods-CarSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarSampleUITests/Pods-CarSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80B1241015E733DF2DCD0E29 /* Pods_CarSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ED8E321F0B2E60058C04E /* CarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ED8E621F0B2E60058C04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848ED8EB21F0B2E60058C04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +78,27 @@
 		848ED90521F0B2E70058C04E /* CarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ED90921F0B2E70058C04E /* CarSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSampleUITests.swift; sourceTree = "<group>"; };
 		848ED90B21F0B2E70058C04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848ED92221F0D8950058C04E /* ApplicationNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationNavigationController.swift; sourceTree = "<group>"; };
+		848ED92421F0D8E00058C04E /* ApplicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationViewModel.swift; sourceTree = "<group>"; };
+		848ED92A21F0E39D0058C04E /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		848ED92C21F0E3C90058C04E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		848ED92E21F0E70D0058C04E /* UIStoryBoard+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Helper.swift"; sourceTree = "<group>"; };
+		848ED93121F0F2350058C04E /* ManufactureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureListViewController.swift; sourceTree = "<group>"; };
+		848ED93321F0F2800058C04E /* ManufactureListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureListViewModel.swift; sourceTree = "<group>"; };
+		848ED93521F0F2F20058C04E /* Manufacture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacture.swift; sourceTree = "<group>"; };
+		848ED93821F0F53E0058C04E /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		848ED93B21F108980058C04E /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		848ED93D21F112680058C04E /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		848ED93F21F117300058C04E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		848ED94121F1181C0058C04E /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		848ED94321F11EE10058C04E /* ManufactureListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureListDataSource.swift; sourceTree = "<group>"; };
+		848ED94521F11EEE0058C04E /* ManufactureListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureListDelegate.swift; sourceTree = "<group>"; };
+		848ED94721F11FAE0058C04E /* UITableView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
+		848ED94A21F120160058C04E /* ManufactureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactureTableViewCell.swift; sourceTree = "<group>"; };
+		848ED94C21F120DE0058C04E /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		848ED94E21F121750058C04E /* Color Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Palette.swift"; sourceTree = "<group>"; };
+		848ED95021F13C330058C04E /* ModelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListViewController.swift; sourceTree = "<group>"; };
+		CDB1F6EB84B8C877FBEA5FF4 /* Pods-CarSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarSample/Pods-CarSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04188C113956E12C5FE23A8D /* Pods_CarSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F720E0C3B75A1AE2DFF76F03 /* Pods_CarSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC651B2183767BDEE64B9E1 /* Pods_CarSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +136,8 @@
 				848ED8FD21F0B2E70058C04E /* CarSampleTests */,
 				848ED90821F0B2E70058C04E /* CarSampleUITests */,
 				848ED8E421F0B2E60058C04E /* Products */,
+				F22E33961D3B54A1589B0DDD /* Pods */,
+				ECCDC44EAADDE4E4C1D721B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +158,7 @@
 				848ED91721F0B3A00058C04E /* App */,
 				848ED91821F0B3AA0058C04E /* UI */,
 				848ED91A21F0B3CF0058C04E /* Utility Tools */,
-				848ED91921F0B3BA0058C04E /* Resources */,
+				848ED92621F0E25B0058C04E /* Resources */,
 			);
 			path = CarSample;
 			sourceTree = "<group>";
@@ -127,6 +184,10 @@
 		848ED91721F0B3A00058C04E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				848ED92021F0D81F0058C04E /* Views */,
+				848ED91F21F0D7230058C04E /* Services */,
+				848ED91E21F0D71A0058C04E /* View Models */,
+				848ED91D21F0D7010058C04E /* Model */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -135,12 +196,85 @@
 			isa = PBXGroup;
 			children = (
 				848ED91C21F0B4A50058C04E /* Reusable Components */,
-				848ED91B21F0B4870058C04E /* Story Boards */,
+				848ED91B21F0B4870058C04E /* Story Boards ( * ) */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		848ED91921F0B3BA0058C04E /* Resources */ = {
+		848ED91A21F0B3CF0058C04E /* Utility Tools */ = {
+			isa = PBXGroup;
+			children = (
+				848ED92E21F0E70D0058C04E /* UIStoryBoard+Helper.swift */,
+				848ED94721F11FAE0058C04E /* UITableView+Helper.swift */,
+				848ED94C21F120DE0058C04E /* Style.swift */,
+				848ED94E21F121750058C04E /* Color Palette.swift */,
+			);
+			path = "Utility Tools";
+			sourceTree = "<group>";
+		};
+		848ED91B21F0B4870058C04E /* Story Boards ( * ) */ = {
+			isa = PBXGroup;
+			children = (
+				848ED8EA21F0B2E60058C04E /* Main.storyboard */,
+			);
+			path = "Story Boards ( * )";
+			sourceTree = "<group>";
+		};
+		848ED91C21F0B4A50058C04E /* Reusable Components */ = {
+			isa = PBXGroup;
+			children = (
+				848ED92A21F0E39D0058C04E /* Reusable.swift */,
+				848ED94921F11FED0058C04E /* Table Cells */,
+			);
+			path = "Reusable Components";
+			sourceTree = "<group>";
+		};
+		848ED91D21F0D7010058C04E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				848ED93521F0F2F20058C04E /* Manufacture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		848ED91E21F0D71A0058C04E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				848ED92421F0D8E00058C04E /* ApplicationViewModel.swift */,
+				848ED93321F0F2800058C04E /* ManufactureListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		848ED91F21F0D7230058C04E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				848ED93A21F108660058C04E /* Web Services */,
+				848ED93721F0F50A0058C04E /* Observable protocol */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		848ED92021F0D81F0058C04E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848ED92121F0D8460058C04E /* View Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		848ED92121F0D8460058C04E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848ED92221F0D8950058C04E /* ApplicationNavigationController.swift */,
+				848ED92921F0E3330058C04E /* Model List View Controller */,
+				848ED92821F0E2CA0058C04E /* Manufacture List View Controller */,
+				848ED92721F0E2AB0058C04E /* Splash View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		848ED92621F0E25B0058C04E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				848ED8ED21F0B2E60058C04E /* CarSample.xcdatamodeld */,
@@ -148,29 +282,83 @@
 				848ED8F221F0B2E70058C04E /* LaunchScreen.storyboard */,
 				848ED8F021F0B2E70058C04E /* Assets.xcassets */,
 			);
-			path = Resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		848ED91A21F0B3CF0058C04E /* Utility Tools */ = {
+		848ED92721F0E2AB0058C04E /* Splash View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				848ED92C21F0E3C90058C04E /* SplashViewController.swift */,
 			);
-			path = "Utility Tools";
+			path = "Splash View Controller";
 			sourceTree = "<group>";
 		};
-		848ED91B21F0B4870058C04E /* Story Boards */ = {
+		848ED92821F0E2CA0058C04E /* Manufacture List View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				848ED8EA21F0B2E60058C04E /* Main.storyboard */,
+				848ED93121F0F2350058C04E /* ManufactureListViewController.swift */,
+				848ED94321F11EE10058C04E /* ManufactureListDataSource.swift */,
+				848ED94521F11EEE0058C04E /* ManufactureListDelegate.swift */,
 			);
-			path = "Story Boards";
+			path = "Manufacture List View Controller";
 			sourceTree = "<group>";
 		};
-		848ED91C21F0B4A50058C04E /* Reusable Components */ = {
+		848ED92921F0E3330058C04E /* Model List View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				848ED95021F13C330058C04E /* ModelListViewController.swift */,
 			);
-			path = "Reusable Components";
+			path = "Model List View Controller";
+			sourceTree = "<group>";
+		};
+		848ED93721F0F50A0058C04E /* Observable protocol */ = {
+			isa = PBXGroup;
+			children = (
+				848ED93821F0F53E0058C04E /* Observable.swift */,
+			);
+			name = "Observable protocol";
+			sourceTree = "<group>";
+		};
+		848ED93A21F108660058C04E /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				848ED93B21F108980058C04E /* Routes.swift */,
+				848ED93D21F112680058C04E /* APIController.swift */,
+				848ED93F21F117300058C04E /* Response.swift */,
+				848ED94121F1181C0058C04E /* WebServices.swift */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
+		848ED94921F11FED0058C04E /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848ED94A21F120160058C04E /* ManufactureTableViewCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		ECCDC44EAADDE4E4C1D721B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14EC1524E8F6DB8EE6299D2E /* Pods_CarSample.framework */,
+				80B1241015E733DF2DCD0E29 /* Pods_CarSampleTests.framework */,
+				2478988CD3E9B7CD18D52058 /* Pods_CarSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22E33961D3B54A1589B0DDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A2785804F6175D90EAD7A7E /* Pods-CarSample.debug.xcconfig */,
+				CDB1F6EB84B8C877FBEA5FF4 /* Pods-CarSample.release.xcconfig */,
+				413CCE763B6A3081032F627F /* Pods-CarSampleTests.debug.xcconfig */,
+				2FA95590E81E8D08F4ADA1E9 /* Pods-CarSampleTests.release.xcconfig */,
+				70AC9D922C9C886D49858678 /* Pods-CarSampleUITests.debug.xcconfig */,
+				1DC6B73A856121CC81D2CB43 /* Pods-CarSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +368,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848ED90E21F0B2E70058C04E /* Build configuration list for PBXNativeTarget "CarSample" */;
 			buildPhases = (
+				EA841D2B8F5E8040CF17FC55 /* [CP] Check Pods Manifest.lock */,
 				848ED8DF21F0B2E60058C04E /* Sources */,
 				848ED8E021F0B2E60058C04E /* Frameworks */,
 				848ED8E121F0B2E60058C04E /* Resources */,
+				07B1F108124ED3BC0BAFEC6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +387,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848ED91121F0B2E70058C04E /* Build configuration list for PBXNativeTarget "CarSampleTests" */;
 			buildPhases = (
+				F4E10EFA082F912B19CB31DF /* [CP] Check Pods Manifest.lock */,
 				848ED8F621F0B2E70058C04E /* Sources */,
 				848ED8F721F0B2E70058C04E /* Frameworks */,
 				848ED8F821F0B2E70058C04E /* Resources */,
@@ -215,6 +406,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848ED91421F0B2E70058C04E /* Build configuration list for PBXNativeTarget "CarSampleUITests" */;
 			buildPhases = (
+				8226D5E0D4CB17BD7F095815 /* [CP] Check Pods Manifest.lock */,
 				848ED90121F0B2E70058C04E /* Sources */,
 				848ED90221F0B2E70058C04E /* Frameworks */,
 				848ED90321F0B2E70058C04E /* Resources */,
@@ -299,13 +491,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07B1F108124ED3BC0BAFEC6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarSample/Pods-CarSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarSample/Pods-CarSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8226D5E0D4CB17BD7F095815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA841D2B8F5E8040CF17FC55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E10EFA082F912B19CB31DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		848ED8DF21F0B2E60058C04E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848ED92321F0D8950058C04E /* ApplicationNavigationController.swift in Sources */,
+				848ED93C21F108980058C04E /* Routes.swift in Sources */,
+				848ED94F21F121750058C04E /* Color Palette.swift in Sources */,
+				848ED93621F0F2F20058C04E /* Manufacture.swift in Sources */,
+				848ED94821F11FAE0058C04E /* UITableView+Helper.swift in Sources */,
+				848ED93E21F112680058C04E /* APIController.swift in Sources */,
+				848ED94B21F120160058C04E /* ManufactureTableViewCell.swift in Sources */,
+				848ED92521F0D8E00058C04E /* ApplicationViewModel.swift in Sources */,
+				848ED92F21F0E70D0058C04E /* UIStoryBoard+Helper.swift in Sources */,
+				848ED94021F117300058C04E /* Response.swift in Sources */,
 				848ED8EF21F0B2E60058C04E /* CarSample.xcdatamodeld in Sources */,
+				848ED93221F0F2350058C04E /* ManufactureListViewController.swift in Sources */,
+				848ED94621F11EEE0058C04E /* ManufactureListDelegate.swift in Sources */,
+				848ED93421F0F2800058C04E /* ManufactureListViewModel.swift in Sources */,
+				848ED92D21F0E3C90058C04E /* SplashViewController.swift in Sources */,
+				848ED94221F1181C0058C04E /* WebServices.swift in Sources */,
+				848ED94421F11EE10058C04E /* ManufactureListDataSource.swift in Sources */,
 				848ED8E721F0B2E60058C04E /* AppDelegate.swift in Sources */,
+				848ED95121F13C330058C04E /* ModelListViewController.swift in Sources */,
+				848ED92B21F0E39D0058C04E /* Reusable.swift in Sources */,
+				848ED93921F0F53E0058C04E /* Observable.swift in Sources */,
+				848ED94D21F120DE0058C04E /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -476,11 +763,13 @@
 		};
 		848ED90F21F0B2E70058C04E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2785804F6175D90EAD7A7E /* Pods-CarSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCY4CDK95D;
 				INFOPLIST_FILE = CarSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,11 +783,13 @@
 		};
 		848ED91021F0B2E70058C04E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB1F6EB84B8C877FBEA5FF4 /* Pods-CarSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCY4CDK95D;
 				INFOPLIST_FILE = CarSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,6 +803,7 @@
 		};
 		848ED91221F0B2E70058C04E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413CCE763B6A3081032F627F /* Pods-CarSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +825,7 @@
 		};
 		848ED91321F0B2E70058C04E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA95590E81E8D08F4ADA1E9 /* Pods-CarSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +847,7 @@
 		};
 		848ED91521F0B2E70058C04E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AC9D922C9C886D49858678 /* Pods-CarSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +868,7 @@
 		};
 		848ED91621F0B2E70058C04E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC6B73A856121CC81D2CB43 /* Pods-CarSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
